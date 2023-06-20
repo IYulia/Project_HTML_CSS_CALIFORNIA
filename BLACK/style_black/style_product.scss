@@ -1,0 +1,434 @@
+@import "null-style.scss";
+
+//Змінні
+$fw-4: 400;
+$fs__19: 19px;
+$fs__16: 16px;
+$fs__14: 14px;
+$fs__titel: 22px;
+$font-fam: 'Inter', sans-serif;
+$font-f: 'Readex Pro', sans-serif;
+$bg_col: #DCE5E2;
+
+
+//---Header---//
+.header{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 28px;
+}
+.header_2{
+  display: none;
+}
+.container{
+    max-width: 1440px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 0;
+}
+.logo_img{
+    height: 21px;
+    img{
+        height: 21px;
+    }
+}
+.menu__list{
+    max-width: 1014px; 
+    height: 80px;
+    font-weight: $fw-4;
+    font-size: $fs__14;
+    font-family: $font-fam;
+    gap: 33px;
+}
+.im{
+    img{
+        margin-right: 30px;
+    }
+}
+.menu__link{
+    gap: 5px;
+}
+.header__icons{
+    gap: 24px;
+}
+ 
+  section{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+.sale-block{
+    margin-top: 31px;
+    display: flex;
+    gap: 27.5px;
+  }
+
+  .blo{
+    transition: 5s;
+  }
+  
+  .text-name h4{
+    color: white;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+   
+  }
+  
+  .text-name small{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    
+  
+  }
+  
+  .text-name p{
+    color: white;
+    margin-top: 25px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  }
+
+// ---------//
+  .container-list{
+    margin-top: 55px;
+  }
+.list-block h4{
+    font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  text-align: center;
+ color: white;
+  }
+  .block{
+    width: 302.5px;
+    height: 396px;
+  }
+  
+  .list-text{
+    text-align: center;
+  }
+  
+  .list-text small{
+    font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: white;
+  
+  }
+  
+  .list{
+    background: #F8F9FA;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 413px;
+    height: 453px;
+    button:hover {
+        background: rgb(234, 232, 232) ;
+        border: solid rgb(220, 219, 219) 1px ;
+        transition: 1s;
+    }
+  }
+  
+  
+  .list-container{
+    margin-top: 35px;
+    gap: 50px;
+    margin-left: 55px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .list small{
+    margin-top: 45px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+  }
+  
+  .list h5{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+  }
+  
+.list button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #F8F9FA;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 200px;
+    padding: 14px 63px;
+}
+
+.sale-block2{
+    margin-top: 35px;
+    display: flex;
+    gap: 27.5px;
+}
+
+//---Fopter---//
+.footer{
+    margin-top: 55px;
+    background-color: rgb(32,33,36);
+    width: 100%;
+    height: 378px;
+}
+.footer__top{
+    padding-top: 55px;
+}
+.footer__coll{
+    gap: 20px;
+    width: 394px;
+}
+.footer__text{
+    width: 304px;
+    height: 39px;
+    font-size: $fs__16;
+    font-family: $font-fam;
+}
+.footer__col{
+    width: 197px;
+    height: 191px;
+    ul{
+        li{
+            margin-bottom: 14px;
+        }
+    }
+}
+.col__titel{
+    font-family: $font-f;
+    font-size: $fs__titel;
+    font-weight: 400;
+}
+.col__li{
+    font-size: $fs__16;
+    font-family: $font-fam;
+}
+.footer__line{
+    margin-left: 45px;
+    margin-right: 45px;
+    hr{
+        color: #c7cbca;
+        height: 2px;
+    }
+}
+.footer__bottom{
+    margin-top: 52px;
+    margin-right: 70px;
+    img{
+        width: 21px;
+        height: 18px;
+    }
+
+}
+.footer__bottom_{
+    img{
+        margin-left: 5px;
+    }
+}
+.bottom__titel{
+    font-family: $font-f;
+    font-weight: 400;
+    font-style: $fs__19;
+}
+.bottom__text{
+    font-family: $font-fam;
+    font-weight: 400;
+    font-style: $fs__19;
+    padding-left: 3px;
+}
+
+.blo:hover{
+  transform: scale(1.1);
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
+}
+
+
+//Адаптація
+
+@media(max-width:375px){
+  //---Header---//
+  .header{
+      display: none;
+  }
+  .header_2{
+      display: flex;
+      width: 375px;
+      height: 48px;
+  }
+  .container{
+      max-width: 375px;
+      padding-left: 0px;
+      padding-right: 20px;
+      margin: 0 auto;
+  }
+  .heared__bottom{
+      width: 100vh;
+  }
+  .menu{
+      width: 100%;
+      ul{
+          width: 100%;
+      }
+  }
+  .menu{
+      display: none;
+  }
+  .header__icons:active .menu{
+      display: flex;
+  }
+  .logo_img{
+      margin-left: 20px;
+      width: 88px;
+      height: 15px;
+  }
+  .logo{
+      margin: 0;
+  }
+  .logo_img{
+      height: 15px;
+      img{
+          height: 15px;
+      }
+  }
+  .menu__list{
+      max-width: 375px; 
+      height: 170px;
+      font-weight: $fw-4;
+      font-size: $fs__14;
+      font-family: $font-fam;
+      gap: 10px;
+      background-color: rgb(32,33,36);
+      z-index: 1;
+      li{
+          text-align: end;
+          margin-right: 30px;
+      }
+  }
+
+  .menu__link{
+      gap: 2px;
+  }
+
+
+  // Section 
+
+  .sale-block2{
+    display: none;
+  }
+ 
+  .sale-block{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .blo{
+    width: 360px;
+    height: 265.41px;
+    img{
+      width: 220px;
+    }
+    h4{
+      font-family: 'Readex Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 18px;
+     
+      
+      
+      color: white;
+    }
+    small{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      
+      
+      
+      color: white;
+    }
+    p{
+      
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+
+
+
+color: white;
+
+    }
+  }
+ 
+
+   // footer
+   .footer__col{
+    
+      width: 375px;
+      display: none;
+  }
+  .footer{
+      
+      height: 150px;
+  }
+  .footer__bottom{
+      margin-top: 12px;
+      margin-right: 0px;
+  }
+  .footer__top{
+      padding-top: 20px;
+  }
+
+  .wid_375{
+    width: 375px;
+}
+.wid_335{
+    width: 335px;
+}
+.con{
+    padding: 0 20px;
+    text-align: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pg{
+    padding-right: 0;
+}
+
+}
